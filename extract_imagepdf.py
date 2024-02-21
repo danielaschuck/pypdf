@@ -1,6 +1,6 @@
 from pikepdf import Pdf, PdfImage
 
-arquivo = Pdf.open("ResultadoVale.pdf")
+arquivo = Pdf.open("Resultado.pdf")
 
 for pagina in arquivo.pages:
     for nome, imagem in pagina.images.items():
